@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/src/output.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body style="background-color: #fff; scroll-behavior: smooth" class="relative">
+
+
+  <!-- <div class="cursor w-5 h-5 bg-[#054895] rounded-full absolute"></div> -->
+  <!-- navbar starts here -->
+
+  <nav class="w-full flex  justify-between items-center h-[58px] px-28 fixed z-10 bg-slate-50">
+    <!-- navbar logo -->
+    <div>
+      <h1 class="text-4xl text-blue-800 font-bold">VK.</h1>
+    </div>
+
+    <!-- navbar links -->
+
+    <ul class="hidden md:flex space-x-8 font-medium items-center  justify-center  opacity-80 ">
+      <li class="active">
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#services">Services</a>
+      </li>
+      <li>
+        <a href="#" target="_blank">Contact Me</a>
+      </li>
+    </ul>
+    <div class="darkmode w-5 md:hidden">
+      <button id="icon">
+        <i id="bar" class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- navbar ends here -->
+
+  <!-- main section strat here -->
+  <div class="container px-28">
+    <main class="w-full flex flex-wrap justify-between items-center h-[100vh]">
+      <div class="main-left w-1/2">
+        <!-- main section text and btn -->
+
+        <h2 class="text-3xl font-medium opacity-80">
+          Hello!
+        </h2>
+        <div class="first-text flex items-center justify-start gap-2 mt-1 mb-1">
+          <span class="text-3xl font-medium">
+            I'M
+          </span>
+          <h1 class="font-medium text-[45px]">
+            Karan Vala
+          </h1>
+        </div>
+        <span class="text-5xl font-medium text-blue-800 skills"></span>
+        <p style="line-height: 1.4" class="mt-4 w-[70%] capitalize font-[500] opacity-70">
+          hey everyone i am karan vala and i make a user-interactive and
+          dynamic websites using latest web devlopment framework and
+          technologies.
+        </p>
+        <div class="main-btn mt-8 space-x-5">
+          <a href="#" class="bg-blue-800 py-3 px-5 rounded text-white font-medium">
+            Leran More
+          </a>
+          <a href="#" class="bg-blue-800 py-3 px-5 rounded text-white font-medium">
+            Contact Me
+          </a>
+        </div>
+      </div>
+
+      <!-- main section image -->
+      <div class="main-right w-[45%]">
+        <img src="../images/main1.png" class="w-[100%] object-cover pt-16" alt="" id="image" />
+      </div>
+    </main>
+
+    <!-- main section ends here -->
+
+    <!-- about me section start here-->
+
+    <section id="about">
+      <div class="about-main w-full flex justify-between items-center gap-4  text-[1rem]">
+        <div class="about-left w-[40%] object-cover">
+          <img src="../images/services-img/about-us.webp" alt="">
+        </div>
+        <div class="about-right w-1/2">
+          <h1 class="font-bold text-3xl">
+            About Me
+          </h1>
+          <p class="w-36 rounded mt-1 text-center h-1 bg-blue-800"></p>
+          <p class="capitalize  font-medium pt-5 text-[1.06rem] opacity-75 w-[90%]">
+            i'm karan vala web devloper as a fresh web devlopment,i am enthusiastic about
+            utilizing my technical skills and passionfor creatinf user-interactive and
+            dynamic websites.and i learn latest web devlopment framework and technologies.
+          </p>
+          <div class="main-btn mt-7">
+            <a href="#" class="bg-blue-800 py-3 px-5 rounded text-white font-medium">
+              Download Cv
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="myskills mt-8  text-[1.1rem] flex flex-col flex-wrap justify-center items-center">
+        <div class="myskill-left text-center">
+          <h1 class="font-bold text-3xl">
+            My Skills
+          </h1>
+          <p class="w-32 rounded mt-1 text-center h-1 bg-blue-800 mx-auto"></p>
+          <p class=" pt-4 font-medium text-[1.06rem] opacity-80">See fully what skills i have and perform to devlope and
+            desigen the
+            project for you</p>
+        </div>
+        <div class="main-btn mt-7">
+          <a href="#" class="bg-blue-800 py-3 px-5 rounded text-white font-medium">
+            See Project
+          </a>
+        </div>
+
+        <div class="myskill-right  pt-14 font-bold capitalize flex gap-7">
+          <img class="w-[120px] object-cover border  rounded-md p-5" src="../images/skills/html-logo.png" alt="">
+          <img class="w-[120px] object-cover border  rounded-md p-5" src="../images/skills/css-logo.png" alt="">
+          <img class="w-[120px] object-cover border  rounded-md p-5" src="../images/skills/github-logo.png" alt="">
+          <img class="w-[120px] object-cover border  rounded-md p-5" src="../images/skills/bootstrap-logo.png" alt="">
+          <img class="w-[120px] object-cover border  rounded-md p-5" src="../images/skills/tailwind-logo.png" alt="">
+          <img class="w-[120px] object-cover border  rounded-md p-5" src="../images/skills/react-logo.png" alt="">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- about me section ends -->
+
+    <!-- my services section start -->
+    <section id="services">
+      <div class="services-text mt-16 text-center">
+        <h1 class="font-bold text-3xl">
+          My Services
+        </h1>
+        <p class="w-48 rounded mt-2 text-center h-1 mx-auto bg-blue-800"></p>
+      </div>
+      <div class="services-cards mt-14 flex justify-around items-center flex-wrap">
+        <div class="card1 w-[25%] h-48 border rounded-md flex p-4 justify-center items-center flex-col">
+          <img src="../images/services-img/website.webp" alt="">
+          <p class="mt-2 text-xl font-semibold uppercase">Web Devlopment</p>
+          <p class="text-center mt-2 text-[14px]">Devlopment of Custom Web Pages.using Current Technologies And
+            Framework.</p>
+        </div>
+        <div class="card1 w-[25%] h-48 border rounded-md flex p-4 justify-center items-center flex-col">
+          <img src="../images/services-img/ui-ux.webp" alt="">
+          <p class="mt-2 text-xl font-semibold uppercase">Web Designer</p>
+          <p class="text-center mt-2 text-[14px]">i offer design of Web Devlopment And Webapplication From Sketch.</p>
+        </div>
+        <div class="card1 w-[25%] h-48 border  rounded-md flex p-4 justify-center items-center flex-col">
+          <img src="../images/services-img/mouse.webp" alt="">
+          <p class="mt-2 text-xl font-semibold uppercase">SEO</p>
+          <p class="text-center mt-2 text-[14px]">I Can Make a Senamatic Structure of a Website For Ranking.</p>
+        </div>
+      </div>
+      <div class="main-btn mt-14 text-center">
+        <a href="#" class="bg-blue-800 py-3 px-5 rounded text-white font-semibold">
+          See Project
+        </a>
+      </div>
+    </section>
+
+    <!-- my services section ends -->
+
+
+    <!-- contact form section start -->
+
+
+    <!-- contact form section end -->
+
+    <!-- footer Section Start -->
+<hr class="mt-10">
+    <footer class="mt-16 flex justify-around items-center">
+      <div class="footer-logo">
+        <h1 class="text-4xl">VK.</h1>
+
+      </div>
+
+      <div class="footer-links opacity-80">
+        <ul class="ml-20 text-left">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-media mt-2 text-3xl  space-x-2">
+        <h2 class="text-2xl mb-2 ml-2">Follow Me:-
+        </h2>
+        <i class=" fa-brands fa-facebook"></i>
+        <i class=" fa-brands fa-instagram"></i>
+        <i class=" fa-brands fa-whatsapp"></i>
+      </div>
+
+    </footer>
+    <hr class="mt-3">
+    <div class="footer-copyright text-center mt-4 mb-4">
+      <h3>
+        © 2024 All Rights Reserved By karan vala.
+      </h3>
+    </div>
+    <!-- <div id="up-btn"
+      class="absolute  cursor-pointer right-10 bg-blue-800 rounded-full px-4 bottom-1 text-3xl text-white py-1 flex items-center justify-center">
+      ↑</div> -->
+    <!-- footer Section end -->
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="../app.js"></script>
+</body>
+
+</html>
